@@ -1,0 +1,25 @@
+<header class="header">
+  <a href="/" class="header__logo">Admin Panel</a>
+
+  <nav class="header__nav">
+    <ul>
+      <li>
+        <a href="/" class="">Home</a>
+      </li>
+      
+      
+     
+    </ul>
+
+  </nav>
+
+  <div class="header__button">
+    <% if (typeof isDashboard !== 'undefined' && isDashboard) { %>
+      <a href="/logout">
+        Logout
+      </a>
+    <% } %>
+  </div>
+
+
+</header>
